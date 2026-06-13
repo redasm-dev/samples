@@ -7,9 +7,8 @@ All files are safe crackmes or authored by the REDasm team.
  
 | Section | Description |
 |---|---|
-| [pe/](pe/README.md) | Portable Executable (PE) binaries |
+| [mz/](mz/README.md) | MZ Family (COM, NE, LE, PE, ...) |
 | [elf/](elf/README.md) | ELF binaries |
-| [com/](com/README.md) | DOS COM binaries |
 
 ## Contributing
  

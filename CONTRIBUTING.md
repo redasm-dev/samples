@@ -1,31 +1,27 @@
 # Contributing to redasm-dev/samples
 
-This repository holds executable binaries used for regression testing.   
-It is intentionally restrictive, every file must have a verified origin.
+This repository holds executable binaries used for regression testing, for safety reasons it's intentionally restrictive: <u>every file must have a verified origin</u>.  
+Pull requests are disabled, binaries are committed by maintainers only.  
 
-## Pull Requests
- 
-Pull requests are disabled.  
-Binaries are committed by maintainers only.
-
-## Submitting a Sample
+## How to submit a Sample
  
 To propose a new sample, open an issue using the **Sample Submission** template.  
-**Issues that do not follow the template will be closed without review.**
+**Keep in mind that issues that do not follow the template will be closed without review.**
 
-## Acceptance Criteria
+## Sample evaluation
  
-A sample will be accepted if it is:
-- A crackme published by its author for public download and analysis
-- Open source software compiled from a known source
-- Authored by the submitter with source code provided
+**ACCEPTED** if:
+- a crackme published by its author for public download and analysis
+- open source software compiled from a known source
+- authored by the submitter with source code provided (see below)
+
+**REJECTED** if:
+- it's commercial or copyrighted software
+- its origin is unknown or unverifiable
+- it does not pass verification
 
 ## Verification
  
-- **Crackme / open-source**: provide a download link and SHA256 hash. The maintainer downloads and verifies the file before committing.
-- **Authored**: provide the source code. The maintainer builds the binary independently. The submitter's binary is never used directly.
+- **Crackme / Open Source**: provide a download link and SHA256 hash. The maintainer will evaluate the file before committing.
+- **Authored**: provide the source code. The maintainer will compile the binary.
 
-A sample will be rejected if:
-- Its origin is unknown or unverifiable
-- It is commercial or copyrighted software
-- It does not pass verification
