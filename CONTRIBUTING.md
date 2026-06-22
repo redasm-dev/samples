@@ -10,15 +10,15 @@ To propose a new sample, open an issue using the **Sample Submission** template.
 
 ## Sample evaluation
  
-**ACCEPTED** if:
-- a crackme published by its author for public download and analysis
-- open source software compiled from a known source
-- authored by the submitter with source code provided (see below)
+**ACCEPTED**:
+- if a crackme published by its author for public download and analysis
+- if open source software compiled from a known source
+- if authored by the submitter with source code provided (see below)
 
-**REJECTED** if:
-- it's commercial or copyrighted software
-- its origin is unknown or unverifiable
-- it does not pass verification
+**REJECTED**:
+- if it's commercial or copyrighted software
+- if its origin is unknown or unverifiable
+- if it does not pass verification
 
 ## Verification
  
