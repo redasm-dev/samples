@@ -10,6 +10,7 @@ Authored samples' source code can be found [here](https://github.com/redasm-dev/
 |---|---|
 | [mz/](mz/README.md) | MZ Family (COM, NE, LE, PE, ...) |
 | [elf/](elf/README.md) | ELF binaries |
+| [psx/](psx/README.md) | PlayStation 1 binaries |
 
 ## Contributing
  
